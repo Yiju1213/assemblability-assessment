@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D75414AE-ED67-334D-ADB2-B8E4F58BF9D0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>PointCloudProcess</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PointCloudProcess.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PointCloudProcess</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PointCloudProcess.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PointCloudProcess</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PointCloudProcess.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PointCloudProcess</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PointCloudProcess.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PointCloudProcess</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\PointCloudProcess_autogen\include_Debug;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess\..;E:\_Graduate_Design\project\PCL\PCLWrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/./mkspecs/win32-msvc" /external:I "C:/Program Files/PCL1.13.0-VTK9.0.1/include/pcl-1.13" /external:I "C:/Program Files/PCL 1.13.0/3rdParty/Eigen/eigen3" /external:I "C:/Program Files/PCL 1.13.0/3rdParty/Boost/include/boost-1_80" /external:I "C:/Program Files/OpenNI2/Include" /external:I "C:/Program Files/VTK 9.0.1/include/vtk-9.0" /external:I "C:/Program Files/PCL 1.13.0/3rdParty/FLANN/include" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtConcurrent"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;__SSE4_2__;__SSE4_1__;__SSSE3__;__SSE3__;__SSE2__;__SSE__;BOOST_ALL_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_DATE_TIME_NO_LIB;BOOST_IOSTREAMS_NO_LIB;BOOST_BZIP2_NO_LIB;BOOST_ZLIB_NO_LIB;BOOST_SERIALIZATION_NO_LIB;DISABLE_PCAP;DISABLE_PNG;DISABLE_QHULL;QT_CONCURRENT_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;__SSE4_2__;__SSE4_1__;__SSSE3__;__SSE3__;__SSE2__;__SSE__;BOOST_ALL_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_DATE_TIME_NO_LIB;BOOST_IOSTREAMS_NO_LIB;BOOST_BZIP2_NO_LIB;BOOST_ZLIB_NO_LIB;BOOST_SERIALIZATION_NO_LIB;DISABLE_PCAP;DISABLE_PNG;DISABLE_QHULL;QT_CONCURRENT_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\PointCloudProcess_autogen\include_Debug;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess\..;E:\_Graduate_Design\project\PCL\PCLWrapper\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;C:\Program Files\PCL1.13.0-VTK9.0.1\include\pcl-1.13;C:\Program Files\PCL 1.13.0\3rdParty\Eigen\eigen3;C:\Program Files\PCL 1.13.0\3rdParty\Boost\include\boost-1_80;C:\Program Files\OpenNI2\Include;C:\Program Files\VTK 9.0.1\include\vtk-9.0;C:\Program Files\PCL 1.13.0\3rdParty\FLANN\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\PointCloudProcess_autogen\include_Debug;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess\..;E:\_Graduate_Design\project\PCL\PCLWrapper\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;C:\Program Files\PCL1.13.0-VTK9.0.1\include\pcl-1.13;C:\Program Files\PCL 1.13.0\3rdParty\Eigen\eigen3;C:\Program Files\PCL 1.13.0\3rdParty\Boost\include\boost-1_80;C:\Program Files\OpenNI2\Include;C:\Program Files\VTK 9.0.1\include\vtk-9.0;C:\Program Files\PCL 1.13.0\3rdParty\FLANN\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target PointCloudProcess</Message>
+      <Command>setlocal
+cd E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/_Graduate_Design/project/GraduationProject/bin/PointCloudProcess/CMakeFiles/PointCloudProcess_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\PointCloudProcess_autogen\include_Release;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess\..;E:\_Graduate_Design\project\PCL\PCLWrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/./mkspecs/win32-msvc" /external:I "C:/Program Files/PCL1.13.0-VTK9.0.1/include/pcl-1.13" /external:I "C:/Program Files/PCL 1.13.0/3rdParty/Eigen/eigen3" /external:I "C:/Program Files/PCL 1.13.0/3rdParty/Boost/include/boost-1_80" /external:I "C:/Program Files/OpenNI2/Include" /external:I "C:/Program Files/VTK 9.0.1/include/vtk-9.0" /external:I "C:/Program Files/PCL 1.13.0/3rdParty/FLANN/include" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtConcurrent"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;__SSE4_2__;__SSE4_1__;__SSSE3__;__SSE3__;__SSE2__;__SSE__;BOOST_ALL_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_DATE_TIME_NO_LIB;BOOST_IOSTREAMS_NO_LIB;BOOST_BZIP2_NO_LIB;BOOST_ZLIB_NO_LIB;BOOST_SERIALIZATION_NO_LIB;DISABLE_PCAP;DISABLE_PNG;DISABLE_QHULL;QT_CONCURRENT_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;__SSE4_2__;__SSE4_1__;__SSSE3__;__SSE3__;__SSE2__;__SSE__;BOOST_ALL_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_DATE_TIME_NO_LIB;BOOST_IOSTREAMS_NO_LIB;BOOST_BZIP2_NO_LIB;BOOST_ZLIB_NO_LIB;BOOST_SERIALIZATION_NO_LIB;DISABLE_PCAP;DISABLE_PNG;DISABLE_QHULL;QT_CONCURRENT_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\PointCloudProcess_autogen\include_Release;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess\..;E:\_Graduate_Design\project\PCL\PCLWrapper\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;C:\Program Files\PCL1.13.0-VTK9.0.1\include\pcl-1.13;C:\Program Files\PCL 1.13.0\3rdParty\Eigen\eigen3;C:\Program Files\PCL 1.13.0\3rdParty\Boost\include\boost-1_80;C:\Program Files\OpenNI2\Include;C:\Program Files\VTK 9.0.1\include\vtk-9.0;C:\Program Files\PCL 1.13.0\3rdParty\FLANN\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\PointCloudProcess_autogen\include_Release;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess\..;E:\_Graduate_Design\project\PCL\PCLWrapper\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;C:\Program Files\PCL1.13.0-VTK9.0.1\include\pcl-1.13;C:\Program Files\PCL 1.13.0\3rdParty\Eigen\eigen3;C:\Program Files\PCL 1.13.0\3rdParty\Boost\include\boost-1_80;C:\Program Files\OpenNI2\Include;C:\Program Files\VTK 9.0.1\include\vtk-9.0;C:\Program Files\PCL 1.13.0\3rdParty\FLANN\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target PointCloudProcess</Message>
+      <Command>setlocal
+cd E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/_Graduate_Design/project/GraduationProject/bin/PointCloudProcess/CMakeFiles/PointCloudProcess_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\PointCloudProcess_autogen\include_MinSizeRel;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess\..;E:\_Graduate_Design\project\PCL\PCLWrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/./mkspecs/win32-msvc" /external:I "C:/Program Files/PCL1.13.0-VTK9.0.1/include/pcl-1.13" /external:I "C:/Program Files/PCL 1.13.0/3rdParty/Eigen/eigen3" /external:I "C:/Program Files/PCL 1.13.0/3rdParty/Boost/include/boost-1_80" /external:I "C:/Program Files/OpenNI2/Include" /external:I "C:/Program Files/VTK 9.0.1/include/vtk-9.0" /external:I "C:/Program Files/PCL 1.13.0/3rdParty/FLANN/include" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtConcurrent"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;__SSE4_2__;__SSE4_1__;__SSSE3__;__SSE3__;__SSE2__;__SSE__;BOOST_ALL_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_DATE_TIME_NO_LIB;BOOST_IOSTREAMS_NO_LIB;BOOST_BZIP2_NO_LIB;BOOST_ZLIB_NO_LIB;BOOST_SERIALIZATION_NO_LIB;DISABLE_PCAP;DISABLE_PNG;DISABLE_QHULL;QT_CONCURRENT_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;__SSE4_2__;__SSE4_1__;__SSSE3__;__SSE3__;__SSE2__;__SSE__;BOOST_ALL_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_DATE_TIME_NO_LIB;BOOST_IOSTREAMS_NO_LIB;BOOST_BZIP2_NO_LIB;BOOST_ZLIB_NO_LIB;BOOST_SERIALIZATION_NO_LIB;DISABLE_PCAP;DISABLE_PNG;DISABLE_QHULL;QT_CONCURRENT_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\PointCloudProcess_autogen\include_MinSizeRel;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess\..;E:\_Graduate_Design\project\PCL\PCLWrapper\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;C:\Program Files\PCL1.13.0-VTK9.0.1\include\pcl-1.13;C:\Program Files\PCL 1.13.0\3rdParty\Eigen\eigen3;C:\Program Files\PCL 1.13.0\3rdParty\Boost\include\boost-1_80;C:\Program Files\OpenNI2\Include;C:\Program Files\VTK 9.0.1\include\vtk-9.0;C:\Program Files\PCL 1.13.0\3rdParty\FLANN\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\PointCloudProcess_autogen\include_MinSizeRel;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess\..;E:\_Graduate_Design\project\PCL\PCLWrapper\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;C:\Program Files\PCL1.13.0-VTK9.0.1\include\pcl-1.13;C:\Program Files\PCL 1.13.0\3rdParty\Eigen\eigen3;C:\Program Files\PCL 1.13.0\3rdParty\Boost\include\boost-1_80;C:\Program Files\OpenNI2\Include;C:\Program Files\VTK 9.0.1\include\vtk-9.0;C:\Program Files\PCL 1.13.0\3rdParty\FLANN\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target PointCloudProcess</Message>
+      <Command>setlocal
+cd E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/_Graduate_Design/project/GraduationProject/bin/PointCloudProcess/CMakeFiles/PointCloudProcess_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\PointCloudProcess_autogen\include_RelWithDebInfo;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess\..;E:\_Graduate_Design\project\PCL\PCLWrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/./mkspecs/win32-msvc" /external:I "C:/Program Files/PCL1.13.0-VTK9.0.1/include/pcl-1.13" /external:I "C:/Program Files/PCL 1.13.0/3rdParty/Eigen/eigen3" /external:I "C:/Program Files/PCL 1.13.0/3rdParty/Boost/include/boost-1_80" /external:I "C:/Program Files/OpenNI2/Include" /external:I "C:/Program Files/VTK 9.0.1/include/vtk-9.0" /external:I "C:/Program Files/PCL 1.13.0/3rdParty/FLANN/include" /external:I "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtConcurrent"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;__SSE4_2__;__SSE4_1__;__SSSE3__;__SSE3__;__SSE2__;__SSE__;BOOST_ALL_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_DATE_TIME_NO_LIB;BOOST_IOSTREAMS_NO_LIB;BOOST_BZIP2_NO_LIB;BOOST_ZLIB_NO_LIB;BOOST_SERIALIZATION_NO_LIB;DISABLE_PCAP;DISABLE_PNG;DISABLE_QHULL;QT_CONCURRENT_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;__SSE4_2__;__SSE4_1__;__SSSE3__;__SSE3__;__SSE2__;__SSE__;BOOST_ALL_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_DATE_TIME_NO_LIB;BOOST_IOSTREAMS_NO_LIB;BOOST_BZIP2_NO_LIB;BOOST_ZLIB_NO_LIB;BOOST_SERIALIZATION_NO_LIB;DISABLE_PCAP;DISABLE_PNG;DISABLE_QHULL;QT_CONCURRENT_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\PointCloudProcess_autogen\include_RelWithDebInfo;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess\..;E:\_Graduate_Design\project\PCL\PCLWrapper\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;C:\Program Files\PCL1.13.0-VTK9.0.1\include\pcl-1.13;C:\Program Files\PCL 1.13.0\3rdParty\Eigen\eigen3;C:\Program Files\PCL 1.13.0\3rdParty\Boost\include\boost-1_80;C:\Program Files\OpenNI2\Include;C:\Program Files\VTK 9.0.1\include\vtk-9.0;C:\Program Files\PCL 1.13.0\3rdParty\FLANN\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess;E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\PointCloudProcess_autogen\include_RelWithDebInfo;E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess\..;E:\_Graduate_Design\project\PCL\PCLWrapper\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;C:\Program Files\PCL1.13.0-VTK9.0.1\include\pcl-1.13;C:\Program Files\PCL 1.13.0\3rdParty\Eigen\eigen3;C:\Program Files\PCL 1.13.0\3rdParty\Boost\include\boost-1_80;C:\Program Files\OpenNI2\Include;C:\Program Files\VTK 9.0.1\include\vtk-9.0;C:\Program Files\PCL 1.13.0\3rdParty\FLANN\include;E:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target PointCloudProcess</Message>
+      <Command>setlocal
+cd E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/_Graduate_Design/project/GraduationProject/bin/PointCloudProcess/CMakeFiles/PointCloudProcess_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/_Graduate_Design/project/GraduationProject/src/PointCloudProcess/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/_Graduate_Design/project/GraduationProject/src -BE:/_Graduate_Design/project/GraduationProject/bin --check-stamp-file E:/_Graduate_Design/project/GraduationProject/bin/PointCloudProcess/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/_Graduate_Design/project/GraduationProject/src/PointCloudProcess/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/_Graduate_Design/project/GraduationProject/src -BE:/_Graduate_Design/project/GraduationProject/bin --check-stamp-file E:/_Graduate_Design/project/GraduationProject/bin/PointCloudProcess/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/_Graduate_Design/project/GraduationProject/src/PointCloudProcess/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/_Graduate_Design/project/GraduationProject/src -BE:/_Graduate_Design/project/GraduationProject/bin --check-stamp-file E:/_Graduate_Design/project/GraduationProject/bin/PointCloudProcess/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/_Graduate_Design/project/GraduationProject/src/PointCloudProcess/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/_Graduate_Design/project/GraduationProject/src -BE:/_Graduate_Design/project/GraduationProject/bin --check-stamp-file E:/_Graduate_Design/project/GraduationProject/bin/PointCloudProcess/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\PointCloudProcess_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess\point_cloud_process.h" />
+    <ClCompile Include="E:\_Graduate_Design\project\GraduationProject\src\PointCloudProcess\point_cloud_process.cpp" />
+    <ClCompile Include="E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\PointCloudProcess_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\PointCloudProcess_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="E:\_Graduate_Design\project\GraduationProject\bin\PointCloudProcess\PointCloudProcess_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\_Graduate_Design\project\GraduationProject\bin\ZERO_CHECK.vcxproj">
+      <Project>{3B48E91D-0C47-331D-8274-C1DECBADA7EA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\_Graduate_Design\project\GraduationProject\bin\GlobalConfig\GlobalConfig.vcxproj">
+      <Project>{6845D92C-34B2-3265-8497-721D310634F8}</Project>
+      <Name>GlobalConfig</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\_Graduate_Design\project\GraduationProject\bin\PropertyDataBase\PropertyDataBase.vcxproj">
+      <Project>{51EA16F0-9393-34F4-A7A7-7161EB55672B}</Project>
+      <Name>PropertyDataBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

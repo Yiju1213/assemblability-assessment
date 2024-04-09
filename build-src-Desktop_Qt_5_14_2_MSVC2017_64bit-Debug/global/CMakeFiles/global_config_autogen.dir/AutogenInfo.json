@@ -1,0 +1,71 @@
+{
+	"BUILD_DIR" : "E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/global/global_config_autogen",
+	"CMAKE_BINARY_DIR" : "E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/global",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/_Graduate_Design/project/Registration/src/global",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : [ "E:/_Graduate_Design/project/Registration/src/global/CMakeLists.txt" ],
+	"CMAKE_SOURCE_DIR" : "E:/_Graduate_Design/project/Registration/src",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"E:/_Graduate_Design/project/Registration/src/global/global_config.h",
+			"MU",
+			"EWIEGA46WW/moc_global_config.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/global/global_config_autogen/include",
+	"MOC_COMPILATION_FILE" : "E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/global/global_config_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB", "WIN32" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/global",
+		"E:/_Graduate_Design/project/Registration/src/global",
+		"E:/_Graduate_Design/project/Registration/src",
+		"E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include",
+		"E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets",
+		"E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui",
+		"E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE",
+		"E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore",
+		"E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/mkspecs/win32-msvc"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/global/CMakeFiles/global_config_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 14,
+	"SETTINGS_FILE" : "E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/global/CMakeFiles/global_config_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"E:/_Graduate_Design/project/Registration/src/global/global_config.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

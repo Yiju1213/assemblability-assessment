@@ -1,0 +1,69 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"qt_mainwindow/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "cloud_dataprocess::@561cb40bafb7470e8fee"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "global_config::@332c505038880bd08795"
+		}
+	],
+	"id" : "qt_mainwindow_autogen::@aaa0596d6922bf458922",
+	"isGeneratorProvided" : true,
+	"name" : "qt_mainwindow_autogen",
+	"paths" : 
+	{
+		"build" : "qt_mainwindow",
+		"source" : "qt_mainwindow"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/qt_mainwindow/CMakeFiles/qt_mainwindow_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/qt_mainwindow/CMakeFiles/qt_mainwindow_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

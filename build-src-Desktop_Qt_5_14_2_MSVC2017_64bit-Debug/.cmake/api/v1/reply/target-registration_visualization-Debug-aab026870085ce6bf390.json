@@ -1,0 +1,1587 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "main/registration_visualization.exe"
+		},
+		{
+			"path" : "main/registration_visualization.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"set_property",
+			"include",
+			"find_package",
+			"boost_find_component",
+			"find_boost",
+			"find_external_library",
+			"set_target_properties",
+			"find_VTK",
+			"_populate_Widgets_target_properties",
+			"_populate_Concurrent_target_properties",
+			"add_compile_options",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"main/CMakeLists.txt",
+			"cloud_dataprocess/CMakeLists.txt",
+			"C:/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_filesystem-1.80.0/libboost_filesystem-variant-vc143-mt-gd-x64-1_80-static.cmake",
+			"C:/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_filesystem-1.80.0/boost_filesystem-config.cmake",
+			"C:/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/Boost-1.80.0/BoostConfig.cmake",
+			"C:/Program Files/CMake/share/cmake-3.26/Modules/FindBoost.cmake",
+			"C:/Program Files/PCL1.13.0-VTK9.0.1/cmake/PCLConfig.cmake",
+			"CMakeLists.txt",
+			"C:/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_iostreams-1.80.0/boost_iostreams-config.cmake",
+			"qt_mainwindow/CMakeLists.txt",
+			"C:/Program Files/VTK 9.0.1/lib/cmake/vtk-9.0/VTK-targets.cmake",
+			"C:/Program Files/VTK 9.0.1/lib/cmake/vtk-9.0/vtk-config.cmake",
+			"global/CMakeLists.txt",
+			"E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+			"E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5/Qt5Config.cmake",
+			"E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Concurrent/Qt5ConcurrentConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 3
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 63,
+				"parent" : 5
+			},
+			{
+				"file" : 6,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 538,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 294,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 125,
+				"parent" : 9
+			},
+			{
+				"file" : 5,
+				"parent" : 10
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 594,
+				"parent" : 11
+			},
+			{
+				"file" : 4,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 262,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 141,
+				"parent" : 14
+			},
+			{
+				"file" : 3,
+				"parent" : 15
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 53,
+				"parent" : 16
+			},
+			{
+				"file" : 2,
+				"parent" : 17
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 104,
+				"parent" : 18
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 16
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 262,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 141,
+				"parent" : 21
+			},
+			{
+				"file" : 8,
+				"parent" : 22
+			},
+			{
+				"command" : 2,
+				"file" : 8,
+				"line" : 103,
+				"parent" : 23
+			},
+			{
+				"command" : 2,
+				"file" : 8,
+				"line" : 103,
+				"parent" : 23
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 9,
+				"line" : 25,
+				"parent" : 26
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 535,
+				"parent" : 7
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 316,
+				"parent" : 28
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 267,
+				"parent" : 29
+			},
+			{
+				"file" : 11,
+				"parent" : 30
+			},
+			{
+				"command" : 3,
+				"file" : 11,
+				"line" : 126,
+				"parent" : 31
+			},
+			{
+				"file" : 10,
+				"parent" : 32
+			},
+			{
+				"command" : 8,
+				"file" : 10,
+				"line" : 743,
+				"parent" : 33
+			},
+			{
+				"command" : 8,
+				"file" : 10,
+				"line" : 1111,
+				"parent" : 33
+			},
+			{
+				"command" : 8,
+				"file" : 10,
+				"line" : 229,
+				"parent" : 33
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 1,
+				"file" : 12,
+				"line" : 15,
+				"parent" : 37
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 53,
+				"parent" : 5
+			},
+			{
+				"file" : 14,
+				"parent" : 39
+			},
+			{
+				"command" : 4,
+				"file" : 14,
+				"line" : 28,
+				"parent" : 40
+			},
+			{
+				"file" : 13,
+				"parent" : 41
+			},
+			{
+				"command" : 10,
+				"file" : 13,
+				"line" : 185,
+				"parent" : 42
+			},
+			{
+				"command" : 2,
+				"file" : 13,
+				"line" : 45,
+				"parent" : 43
+			},
+			{
+				"command" : 4,
+				"file" : 14,
+				"line" : 28,
+				"parent" : 40
+			},
+			{
+				"file" : 15,
+				"parent" : 45
+			},
+			{
+				"command" : 11,
+				"file" : 15,
+				"line" : 182,
+				"parent" : 46
+			},
+			{
+				"command" : 2,
+				"file" : 15,
+				"line" : 45,
+				"parent" : 47
+			},
+			{
+				"command" : 8,
+				"file" : 10,
+				"line" : 91,
+				"parent" : 33
+			},
+			{
+				"command" : 12,
+				"file" : 7,
+				"line" : 6,
+				"parent" : 5
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++14 -MDd"
+				},
+				{
+					"backtrace" : 50,
+					"fragment" : "/wd4819"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-W3"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/bigobj"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/arch:AVX2"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ALL_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ATOMIC_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_BZIP2_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_DATE_TIME_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_FILESYSTEM_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_IOSTREAMS_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_SERIALIZATION_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_SYSTEM_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ZLIB_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "DISABLE_PCAP"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "DISABLE_PNG"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "DISABLE_QHULL"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "DIY_NO_THREADS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "H5_BUILT_AS_DYNAMIC_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LZ4_DLL_IMPORT=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_CONCURRENT_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_SQL_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "VTK_HAS_OGGTHEORA_SUPPORT"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__SSE2__"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__SSE3__"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__SSE4_1__"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__SSE4_2__"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__SSE__"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__SSSE3__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/main"
+				},
+				{
+					"path" : "E:/_Graduate_Design/project/Registration/src/main"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/main/registration_visualization_autogen/include"
+				},
+				{
+					"backtrace" : 51,
+					"path" : "E:/_Graduate_Design/project/Registration/src/main/.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/_Graduate_Design/project/PCL/PCLWrapper/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/./mkspecs/win32-msvc"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtConcurrent"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Program Files/PCL1.13.0-VTK9.0.1/include/pcl-1.13"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Program Files/PCL 1.13.0/3rdParty/Eigen/eigen3"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Program Files/PCL 1.13.0/3rdParty/Boost/include/boost-1_80"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Program Files/OpenNI2/Include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Program Files/VTK 9.0.1/include/vtk-9.0"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Program Files/PCL 1.13.0/3rdParty/FLANN/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtkhdf5"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtkhdf5/src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtkhdf5/hl/src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtkogg/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtklibxml2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtSql"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "cloud_dataprocess::@561cb40bafb7470e8fee"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "qt_mainwindow::@aaa0596d6922bf458922"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "global_config::@332c505038880bd08795"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "registration_visualization_autogen::@15c4a824ab2728a3f5e7"
+		}
+	],
+	"id" : "registration_visualization::@15c4a824ab2728a3f5e7",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LIBPATH:C:\\PROGRA~1\\PCL113~1.1\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\qt_mainwindow\\qt_mainwindow.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\cloud_dataprocess\\cloud_dataprocess.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL1.13.0-VTK9.0.1\\lib\\pcl_surface.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL1.13.0-VTK9.0.1\\lib\\pcl_keypoints.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL1.13.0-VTK9.0.1\\lib\\pcl_tracking.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL1.13.0-VTK9.0.1\\lib\\pcl_recognition.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL1.13.0-VTK9.0.1\\lib\\pcl_registration.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL1.13.0-VTK9.0.1\\lib\\pcl_stereo.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL1.13.0-VTK9.0.1\\lib\\pcl_outofcore.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL1.13.0-VTK9.0.1\\lib\\pcl_people.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL1.13.0-VTK9.0.1\\lib\\pcl_segmentation.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL1.13.0-VTK9.0.1\\lib\\pcl_features.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL1.13.0-VTK9.0.1\\lib\\pcl_filters.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL1.13.0-VTK9.0.1\\lib\\pcl_sample_consensus.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL1.13.0-VTK9.0.1\\lib\\pcl_ml.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL1.13.0-VTK9.0.1\\lib\\pcl_visualization.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL1.13.0-VTK9.0.1\\lib\\pcl_search.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL1.13.0-VTK9.0.1\\lib\\pcl_kdtree.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL1.13.0-VTK9.0.1\\lib\\pcl_io.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL1.13.0-VTK9.0.1\\lib\\pcl_octree.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL1.13.0-VTK9.0.1\\lib\\pcl_common.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL 1.13.0\\3rdParty\\Boost\\lib\\libboost_system-vc143-mt-gd-x64-1_80.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL 1.13.0\\3rdParty\\Boost\\lib\\libboost_filesystem-vc143-mt-gd-x64-1_80.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "bcrypt.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "synchronization.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "bcrypt.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "synchronization.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "\"C:\\Program Files\\PCL 1.13.0\\3rdParty\\Boost\\lib\\libboost_atomic-vc143-mt-gd-x64-1_80.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL 1.13.0\\3rdParty\\Boost\\lib\\libboost_date_time-vc143-mt-gd-x64-1_80.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL 1.13.0\\3rdParty\\Boost\\lib\\libboost_iostreams-vc143-mt-gd-x64-1_80.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "\"C:\\Program Files\\PCL 1.13.0\\3rdParty\\Boost\\lib\\libboost_bzip2-vc143-mt-gd-x64-1_80.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "\"C:\\Program Files\\PCL 1.13.0\\3rdParty\\Boost\\lib\\libboost_zlib-vc143-mt-gd-x64-1_80.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL 1.13.0\\3rdParty\\Boost\\lib\\libboost_serialization-vc143-mt-gd-x64-1_80.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\OpenNI2\\Lib\\OpenNI2.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "\"C:\\Program Files\\PCL 1.13.0\\3rdParty\\FLANN\\lib\\flann_cpp.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "..\\global\\global_config.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "E:\\Qt\\Qt5.14.2\\5.14.2\\msvc2017_64\\lib\\Qt5Concurrentd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkWrappingTools-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkViewsQt-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkViewsInfovis-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkViewsContext2D-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkTestingRendering-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkRenderingQt-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkRenderingVolumeOpenGL2-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkRenderingLabel-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkRenderingLOD-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkRenderingImage-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkRenderingContextOpenGL2-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOVeraOut-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOTecplotTable-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOSegY-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOParallelXML-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOParallel-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOPLY-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOOggTheora-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtktheora-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkogg-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIONetCDF-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOMotionFX-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOMINC-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOLSDyna-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOInfovis-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtklibxml2-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOImport-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOGeometry-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOVideo-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOMovie-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOExportPDF-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOExportGL2PS-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkRenderingGL2PSOpenGL2-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkgl2ps-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOExport-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtklibharu-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkRenderingVtkJS-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkjsoncpp-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkRenderingSceneGraph-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOExodus-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkexodusII-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtknetcdf-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkhdf5_hl-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkhdf5-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOEnSight-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOCityGML-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOAsynchronous-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOAMR-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkInteractionImage-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkImagingStencil-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkImagingStatistics-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkImagingMorphological-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkImagingMath-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkGUISupportQtSQL-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 35,
+				"fragment" : "E:\\Qt\\Qt5.14.2\\5.14.2\\msvc2017_64\\lib\\Qt5Sqld.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOSQL-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtksqlite-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkGUISupportQt-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkRenderingOpenGL2-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkglew-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 36,
+				"fragment" : "opengl32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "E:\\Qt\\Qt5.14.2\\5.14.2\\msvc2017_64\\lib\\Qt5Widgetsd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "E:\\Qt\\Qt5.14.2\\5.14.2\\msvc2017_64\\lib\\Qt5Guid.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 48,
+				"fragment" : "E:\\Qt\\Qt5.14.2\\5.14.2\\msvc2017_64\\lib\\Qt5Cored.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkGeovisCore-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtklibproj-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkInfovisLayout-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkViewsCore-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkInteractionWidgets-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkRenderingVolume-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkRenderingAnnotation-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkImagingHybrid-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkImagingColor-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkInteractionStyle-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersTopology-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersSelection-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersSMP-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersProgrammable-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersPoints-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersVerdict-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkverdict-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersParallelImaging-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersImaging-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkImagingGeneral-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersHyperTree-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersGeneric-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersFlowPaths-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersAMR-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersParallel-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersTexture-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersModeling-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersHybrid-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkRenderingUI-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkDomainsChemistry-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkChartsCore-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkInfovisCore-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersExtraction-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkParallelDIY-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOXML-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOXMLParser-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkexpat-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkParallelCore-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOLegacy-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOCore-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkdoubleconversion-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtklz4-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtklzma-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersStatistics-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkImagingFourier-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkImagingSources-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkIOImage-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkpng-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkpugixml-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkDICOMParser-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkmetaio-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtktiff-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkjpeg-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkRenderingContext2D-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkRenderingFreeType-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkfreetype-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkzlib-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkRenderingCore-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkCommonColor-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersSources-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkImagingCore-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersGeometry-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersGeneral-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkCommonComputationalGeometry-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkFiltersCore-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkCommonExecutionModel-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkCommonDataModel-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkCommonSystem-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkCommonMisc-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkCommonTransforms-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkCommonMath-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkCommonCore-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtkloguru-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "\"C:\\Program Files\\VTK 9.0.1\\lib\\vtksys-9.0.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 49,
+				"fragment" : "ws2_32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 49,
+				"fragment" : "dbghelp.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 49,
+				"fragment" : "psapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "registration_visualization",
+	"nameOnDisk" : "registration_visualization.exe",
+	"paths" : 
+	{
+		"build" : "main",
+		"source" : "main"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/main/registration_visualization_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/main/qrc_tool-icon.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "qrc/tool-icon.qrc",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

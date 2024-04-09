@@ -1,0 +1,10 @@
+^E:\_GRADUATE_DESIGN\PROJECT\GRADUATIONPROJECT\BIN\CMAKEFILES\4C57F877106E4F779E9BDBCE96866300\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/_Graduate_Design/project/GraduationProject/src -BE:/_Graduate_Design/project/GraduationProject/bin --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/_Graduate_Design/project/GraduationProject/bin/YIJU_GraduationProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="icon-normals">icon/normals.png</file>
+    </qresource>
+</RCC>

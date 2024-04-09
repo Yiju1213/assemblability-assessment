@@ -1,0 +1,187 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "main",
+					"jsonFile" : "directory-main-Debug-72090c4a4cf973f97e42.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "main",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "cloud_dataprocess",
+					"jsonFile" : "directory-cloud_dataprocess-Debug-44b65d6c6f38a5dfb2a6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cloud_dataprocess",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "qt_mainwindow",
+					"jsonFile" : "directory-qt_mainwindow-Debug-42fa75ae9775acbc217c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "qt_mainwindow",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "global",
+					"jsonFile" : "directory-global-Debug-524b1821de52cc0ba64b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "global",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "registration_visualization",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "cloud_dataprocess::@561cb40bafb7470e8fee",
+					"jsonFile" : "target-cloud_dataprocess-Debug-8d2d409a0abc02883927.json",
+					"name" : "cloud_dataprocess",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cloud_dataprocess_autogen::@561cb40bafb7470e8fee",
+					"jsonFile" : "target-cloud_dataprocess_autogen-Debug-1c87c8854b699ef46c46.json",
+					"name" : "cloud_dataprocess_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "global_config::@332c505038880bd08795",
+					"jsonFile" : "target-global_config-Debug-5ad873134021baf4eb5f.json",
+					"name" : "global_config",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "global_config_autogen::@332c505038880bd08795",
+					"jsonFile" : "target-global_config_autogen-Debug-e12da7e7db098840856c.json",
+					"name" : "global_config_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "qt_mainwindow::@aaa0596d6922bf458922",
+					"jsonFile" : "target-qt_mainwindow-Debug-c4fb86e734eb29b75e7b.json",
+					"name" : "qt_mainwindow",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "qt_mainwindow_autogen::@aaa0596d6922bf458922",
+					"jsonFile" : "target-qt_mainwindow_autogen-Debug-ab377cc957aca9ecc1b7.json",
+					"name" : "qt_mainwindow_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "registration_visualization::@15c4a824ab2728a3f5e7",
+					"jsonFile" : "target-registration_visualization-Debug-aab026870085ce6bf390.json",
+					"name" : "registration_visualization",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "registration_visualization_autogen::@15c4a824ab2728a3f5e7",
+					"jsonFile" : "target-registration_visualization_autogen-Debug-fe1e0d388222bc4d5f62.json",
+					"name" : "registration_visualization_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug",
+		"source" : "E:/_Graduate_Design/project/Registration/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

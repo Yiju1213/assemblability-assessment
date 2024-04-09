@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="registration_visualization"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Qt\;CMake Files\..\..\..\..\Qt\Qt5.14.2\;CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\;CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\;CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\;CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\;CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5\;CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Concurrent\;CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Sql\;CMake Files\..\cmake\;CMake Files\Program Files\;CMake Files\Program Files\PCL1.13.0-VTK9.0.1\;CMake Files\Program Files\PCL1.13.0-VTK9.0.1\cmake\;CMake Files\Program Files\PCL1.13.0-VTK9.0.1\cmake\Modules\;CMake Files\Program Files\PCL 1.13.0\;CMake Files\Program Files\PCL 1.13.0\3rdParty\;CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\;CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\;CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\;CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\Boost-1.80.0\;CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_headers-1.80.0\;CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_system-1.80.0\;CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_filesystem-1.80.0\;CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_atomic-1.80.0\;CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_date_time-1.80.0\;CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_iostreams-1.80.0\;CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_bzip2-1.80.0\;CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_zlib-1.80.0\;CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_serialization-1.80.0\;CMake Files\Program Files\VTK 9.0.1\;CMake Files\Program Files\VTK 9.0.1\lib\;CMake Files\Program Files\VTK 9.0.1\lib\cmake\;CMake Files\Program Files\VTK 9.0.1\lib\cmake\vtk-9.0\;CMake Files\Program Files\VTK 9.0.1\lib\cmake\vtk-9.0\patches\;CMake Files\Program Files\VTK 9.0.1\lib\cmake\vtk-9.0\patches\99\;CMake Files\main\;CMake Files\qrc\;CMake Files\cloud_dataprocess\;CMake Files\qt_mainwindow\;CMake Files\global\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="registration_visualization">
+				<Option output="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/main/registration_visualization.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/main"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_CONCURRENT_LIB"/>
+					<Add option="-D__SSE4_2__"/>
+					<Add option="-D__SSE4_1__"/>
+					<Add option="-D__SSSE3__"/>
+					<Add option="-D__SSE3__"/>
+					<Add option="-D__SSE2__"/>
+					<Add option="-D__SSE__"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_BZIP2_NO_LIB"/>
+					<Add option="-DBOOST_ZLIB_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_QHULL"/>
+					<Add option="-DH5_BUILT_AS_DYNAMIC_LIB"/>
+					<Add option="-DVTK_HAS_OGGTHEORA_SUPPORT"/>
+					<Add option="-DQT_SQL_LIB"/>
+					<Add option="-DDIY_NO_THREADS"/>
+					<Add option="-DLZ4_DLL_IMPORT=1"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/main"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/src/main"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/main/registration_visualization_autogen/include"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/src/main/.."/>
+					<Add directory="E:/_Graduate_Design/project/PCL/PCLWrapper/include"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/./mkspecs/win32-msvc"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtConcurrent"/>
+					<Add directory="C:/Program Files/PCL1.13.0-VTK9.0.1/include/pcl-1.13"/>
+					<Add directory="C:/Program Files/PCL 1.13.0/3rdParty/Eigen/eigen3"/>
+					<Add directory="C:/Program Files/PCL 1.13.0/3rdParty/Boost/include/boost-1_80"/>
+					<Add directory="C:/Program Files/OpenNI2/Include"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0"/>
+					<Add directory="C:/Program Files/PCL 1.13.0/3rdParty/FLANN/include"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtkhdf5"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtkhdf5/src"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtkhdf5/hl/src"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtkogg/include"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtklibxml2/include"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtSql"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\main\Makefile VERBOSE=1 registration_visualization"/>
+					<CompileFile command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\main\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\main\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\main\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="registration_visualization/fast">
+				<Option output="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/main/registration_visualization.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/main"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_CONCURRENT_LIB"/>
+					<Add option="-D__SSE4_2__"/>
+					<Add option="-D__SSE4_1__"/>
+					<Add option="-D__SSSE3__"/>
+					<Add option="-D__SSE3__"/>
+					<Add option="-D__SSE2__"/>
+					<Add option="-D__SSE__"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_BZIP2_NO_LIB"/>
+					<Add option="-DBOOST_ZLIB_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_QHULL"/>
+					<Add option="-DH5_BUILT_AS_DYNAMIC_LIB"/>
+					<Add option="-DVTK_HAS_OGGTHEORA_SUPPORT"/>
+					<Add option="-DQT_SQL_LIB"/>
+					<Add option="-DDIY_NO_THREADS"/>
+					<Add option="-DLZ4_DLL_IMPORT=1"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/main"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/src/main"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/main/registration_visualization_autogen/include"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/src/main/.."/>
+					<Add directory="E:/_Graduate_Design/project/PCL/PCLWrapper/include"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/./mkspecs/win32-msvc"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtConcurrent"/>
+					<Add directory="C:/Program Files/PCL1.13.0-VTK9.0.1/include/pcl-1.13"/>
+					<Add directory="C:/Program Files/PCL 1.13.0/3rdParty/Eigen/eigen3"/>
+					<Add directory="C:/Program Files/PCL 1.13.0/3rdParty/Boost/include/boost-1_80"/>
+					<Add directory="C:/Program Files/OpenNI2/Include"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0"/>
+					<Add directory="C:/Program Files/PCL 1.13.0/3rdParty/FLANN/include"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtkhdf5"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtkhdf5/src"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtkhdf5/hl/src"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtkogg/include"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtklibxml2/include"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtSql"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\main\Makefile VERBOSE=1 registration_visualization/fast"/>
+					<CompileFile command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\main\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\main\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\main\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="registration_visualization_autogen">
+				<Option working_dir="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/main"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\main\Makefile VERBOSE=1 registration_visualization_autogen"/>
+					<CompileFile command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\main\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\main\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\main\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cloud_dataprocess">
+				<Option output="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/cloud_dataprocess/cloud_dataprocess.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/cloud_dataprocess"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D__SSE4_2__"/>
+					<Add option="-D__SSE4_1__"/>
+					<Add option="-D__SSSE3__"/>
+					<Add option="-D__SSE3__"/>
+					<Add option="-D__SSE2__"/>
+					<Add option="-D__SSE__"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_QHULL"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_CONCURRENT_LIB"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_BZIP2_NO_LIB"/>
+					<Add option="-DBOOST_ZLIB_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/cloud_dataprocess"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/src/cloud_dataprocess"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/cloud_dataprocess/cloud_dataprocess_autogen/include"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/src/cloud_dataprocess/.."/>
+					<Add directory="E:/_Graduate_Design/project/PCL/PCLWrapper/include"/>
+					<Add directory="C:/Program Files/PCL1.13.0-VTK9.0.1/include/pcl-1.13"/>
+					<Add directory="C:/Program Files/PCL 1.13.0/3rdParty/Eigen/eigen3"/>
+					<Add directory="C:/Program Files/PCL 1.13.0/3rdParty/Boost/include/boost-1_80"/>
+					<Add directory="C:/Program Files/OpenNI2/Include"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/./mkspecs/win32-msvc"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtConcurrent"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0"/>
+					<Add directory="C:/Program Files/PCL 1.13.0/3rdParty/FLANN/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\cloud_dataprocess\Makefile VERBOSE=1 cloud_dataprocess"/>
+					<CompileFile command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\cloud_dataprocess\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\cloud_dataprocess\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\cloud_dataprocess\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cloud_dataprocess/fast">
+				<Option output="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/cloud_dataprocess/cloud_dataprocess.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/cloud_dataprocess"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D__SSE4_2__"/>
+					<Add option="-D__SSE4_1__"/>
+					<Add option="-D__SSSE3__"/>
+					<Add option="-D__SSE3__"/>
+					<Add option="-D__SSE2__"/>
+					<Add option="-D__SSE__"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_QHULL"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_CONCURRENT_LIB"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_BZIP2_NO_LIB"/>
+					<Add option="-DBOOST_ZLIB_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/cloud_dataprocess"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/src/cloud_dataprocess"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/cloud_dataprocess/cloud_dataprocess_autogen/include"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/src/cloud_dataprocess/.."/>
+					<Add directory="E:/_Graduate_Design/project/PCL/PCLWrapper/include"/>
+					<Add directory="C:/Program Files/PCL1.13.0-VTK9.0.1/include/pcl-1.13"/>
+					<Add directory="C:/Program Files/PCL 1.13.0/3rdParty/Eigen/eigen3"/>
+					<Add directory="C:/Program Files/PCL 1.13.0/3rdParty/Boost/include/boost-1_80"/>
+					<Add directory="C:/Program Files/OpenNI2/Include"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/./mkspecs/win32-msvc"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtConcurrent"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0"/>
+					<Add directory="C:/Program Files/PCL 1.13.0/3rdParty/FLANN/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\cloud_dataprocess\Makefile VERBOSE=1 cloud_dataprocess/fast"/>
+					<CompileFile command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\cloud_dataprocess\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\cloud_dataprocess\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\cloud_dataprocess\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cloud_dataprocess_autogen">
+				<Option working_dir="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/cloud_dataprocess"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\cloud_dataprocess\Makefile VERBOSE=1 cloud_dataprocess_autogen"/>
+					<CompileFile command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\cloud_dataprocess\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\cloud_dataprocess\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\cloud_dataprocess\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qt_mainwindow">
+				<Option output="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/qt_mainwindow/qt_mainwindow.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/qt_mainwindow"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_CONCURRENT_LIB"/>
+					<Add option="-D__SSE4_2__"/>
+					<Add option="-D__SSE4_1__"/>
+					<Add option="-D__SSSE3__"/>
+					<Add option="-D__SSE3__"/>
+					<Add option="-D__SSE2__"/>
+					<Add option="-D__SSE__"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_BZIP2_NO_LIB"/>
+					<Add option="-DBOOST_ZLIB_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_QHULL"/>
+					<Add option="-DH5_BUILT_AS_DYNAMIC_LIB"/>
+					<Add option="-DVTK_HAS_OGGTHEORA_SUPPORT"/>
+					<Add option="-DQT_SQL_LIB"/>
+					<Add option="-DDIY_NO_THREADS"/>
+					<Add option="-DLZ4_DLL_IMPORT=1"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/qt_mainwindow"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/src/qt_mainwindow"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/qt_mainwindow/qt_mainwindow_autogen/include"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/src/qt_mainwindow/.."/>
+					<Add directory="E:/_Graduate_Design/project/PCL/PCLWrapper/include"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/./mkspecs/win32-msvc"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtConcurrent"/>
+					<Add directory="C:/Program Files/PCL1.13.0-VTK9.0.1/include/pcl-1.13"/>
+					<Add directory="C:/Program Files/PCL 1.13.0/3rdParty/Eigen/eigen3"/>
+					<Add directory="C:/Program Files/PCL 1.13.0/3rdParty/Boost/include/boost-1_80"/>
+					<Add directory="C:/Program Files/OpenNI2/Include"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0"/>
+					<Add directory="C:/Program Files/PCL 1.13.0/3rdParty/FLANN/include"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtkhdf5"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtkhdf5/src"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtkhdf5/hl/src"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtkogg/include"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtklibxml2/include"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtSql"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\qt_mainwindow\Makefile VERBOSE=1 qt_mainwindow"/>
+					<CompileFile command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\qt_mainwindow\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\qt_mainwindow\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\qt_mainwindow\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qt_mainwindow/fast">
+				<Option output="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/qt_mainwindow/qt_mainwindow.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/qt_mainwindow"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_CONCURRENT_LIB"/>
+					<Add option="-D__SSE4_2__"/>
+					<Add option="-D__SSE4_1__"/>
+					<Add option="-D__SSSE3__"/>
+					<Add option="-D__SSE3__"/>
+					<Add option="-D__SSE2__"/>
+					<Add option="-D__SSE__"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_SYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_NO_LIB"/>
+					<Add option="-DBOOST_ATOMIC_NO_LIB"/>
+					<Add option="-DBOOST_DATE_TIME_NO_LIB"/>
+					<Add option="-DBOOST_IOSTREAMS_NO_LIB"/>
+					<Add option="-DBOOST_BZIP2_NO_LIB"/>
+					<Add option="-DBOOST_ZLIB_NO_LIB"/>
+					<Add option="-DBOOST_SERIALIZATION_NO_LIB"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_QHULL"/>
+					<Add option="-DH5_BUILT_AS_DYNAMIC_LIB"/>
+					<Add option="-DVTK_HAS_OGGTHEORA_SUPPORT"/>
+					<Add option="-DQT_SQL_LIB"/>
+					<Add option="-DDIY_NO_THREADS"/>
+					<Add option="-DLZ4_DLL_IMPORT=1"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/qt_mainwindow"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/src/qt_mainwindow"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/qt_mainwindow/qt_mainwindow_autogen/include"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/src/qt_mainwindow/.."/>
+					<Add directory="E:/_Graduate_Design/project/PCL/PCLWrapper/include"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/./mkspecs/win32-msvc"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtConcurrent"/>
+					<Add directory="C:/Program Files/PCL1.13.0-VTK9.0.1/include/pcl-1.13"/>
+					<Add directory="C:/Program Files/PCL 1.13.0/3rdParty/Eigen/eigen3"/>
+					<Add directory="C:/Program Files/PCL 1.13.0/3rdParty/Boost/include/boost-1_80"/>
+					<Add directory="C:/Program Files/OpenNI2/Include"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0"/>
+					<Add directory="C:/Program Files/PCL 1.13.0/3rdParty/FLANN/include"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtkhdf5"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtkhdf5/src"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtkhdf5/hl/src"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtkogg/include"/>
+					<Add directory="C:/Program Files/VTK 9.0.1/include/vtk-9.0/vtklibxml2/include"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtSql"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\qt_mainwindow\Makefile VERBOSE=1 qt_mainwindow/fast"/>
+					<CompileFile command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\qt_mainwindow\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\qt_mainwindow\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\qt_mainwindow\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qt_mainwindow_autogen">
+				<Option working_dir="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/qt_mainwindow"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\qt_mainwindow\Makefile VERBOSE=1 qt_mainwindow_autogen"/>
+					<CompileFile command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\qt_mainwindow\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\qt_mainwindow\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\qt_mainwindow\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="global_config">
+				<Option output="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/global/global_config.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/global"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/global"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/src/global"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/global/global_config_autogen/include"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/src/global/.."/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/./mkspecs/win32-msvc"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\global\Makefile VERBOSE=1 global_config"/>
+					<CompileFile command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\global\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\global\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\global\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="global_config/fast">
+				<Option output="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/global/global_config.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/global"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/global"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/src/global"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/global/global_config_autogen/include"/>
+					<Add directory="E:/_Graduate_Design/project/Registration/src/global/.."/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore"/>
+					<Add directory="E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/./mkspecs/win32-msvc"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.20348.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\global\Makefile VERBOSE=1 global_config/fast"/>
+					<CompileFile command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\global\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\global\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\global\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="global_config_autogen">
+				<Option working_dir="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/global"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\global\Makefile VERBOSE=1 global_config_autogen"/>
+					<CompileFile command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\global\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\global\Makefile VERBOSE=1 clean"/>
+					<DistClean command="jom /NOLOGO /f E:\_Graduate_Design\project\Registration\build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\global\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/cloud_dataprocess/cloud_dataprocess_autogen/mocs_compilation.cpp">
+			<Option target="cloud_dataprocess"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/global/global_config_autogen/mocs_compilation.cpp">
+			<Option target="global_config"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/main/qrc_tool-icon.cpp">
+			<Option target="registration_visualization"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/main/registration_visualization_autogen/mocs_compilation.cpp">
+			<Option target="registration_visualization"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/qt_mainwindow/qt_mainwindow_autogen/mocs_compilation.cpp">
+			<Option target="qt_mainwindow"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/qt_mainwindow/ui_cloud_item_widget.h">
+			<Option target="qt_mainwindow"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/qt_mainwindow/ui_mainwindow.h">
+			<Option target="qt_mainwindow"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/build-src-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug/qt_mainwindow/ui_vtk_widget.h">
+			<Option target="qt_mainwindow"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/cloud_dataprocess/cloud_database.cpp">
+			<Option target="cloud_dataprocess"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/cloud_dataprocess/cloud_database.h">
+			<Option target="cloud_dataprocess"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/cloud_dataprocess/pcl_process.cpp">
+			<Option target="cloud_dataprocess"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/cloud_dataprocess/pcl_process.h">
+			<Option target="cloud_dataprocess"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/cloud_dataprocess/vtk_process.cpp">
+			<Option target="cloud_dataprocess"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/cloud_dataprocess/vtk_process.h">
+			<Option target="cloud_dataprocess"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/global/global_config.cpp">
+			<Option target="global_config"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/global/global_config.h">
+			<Option target="global_config"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/main/main.cpp">
+			<Option target="registration_visualization"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/qrc/tool-icon.qrc">
+			<Option target="registration_visualization"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/qt_mainwindow/action_param_dialog.cpp">
+			<Option target="qt_mainwindow"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/qt_mainwindow/action_param_dialog.h">
+			<Option target="qt_mainwindow"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/qt_mainwindow/cloud_item_widget.cpp">
+			<Option target="qt_mainwindow"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/qt_mainwindow/cloud_item_widget.h">
+			<Option target="qt_mainwindow"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/qt_mainwindow/cloud_item_widget.ui">
+			<Option target="qt_mainwindow"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/qt_mainwindow/mainwindow.cpp">
+			<Option target="qt_mainwindow"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/qt_mainwindow/mainwindow.h">
+			<Option target="qt_mainwindow"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/qt_mainwindow/mainwindow.ui">
+			<Option target="qt_mainwindow"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/qt_mainwindow/vtk_widget.cpp">
+			<Option target="qt_mainwindow"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/qt_mainwindow/vtk_widget.h">
+			<Option target="qt_mainwindow"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/qt_mainwindow/vtk_widget.ui">
+			<Option target="qt_mainwindow"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Concurrent/Qt5ConcurrentConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Concurrent\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Concurrent/Qt5ConcurrentConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Concurrent\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Sql/Qt5Sql_QODBCDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../../../../Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/../cmake/FindPCLWrapper.cmake">
+			<Option virtualFolder="CMake Files\..\cmake\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL1.13.0-VTK9.0.1/cmake/PCLConfig.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL1.13.0-VTK9.0.1\cmake\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL1.13.0-VTK9.0.1/cmake/PCLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL1.13.0-VTK9.0.1\cmake\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL1.13.0-VTK9.0.1/cmake/Modules/FindEigen.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL1.13.0-VTK9.0.1\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL1.13.0-VTK9.0.1/cmake/Modules/FindFLANN.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL1.13.0-VTK9.0.1\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL1.13.0-VTK9.0.1/cmake/Modules/FindOpenMP.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL1.13.0-VTK9.0.1\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL1.13.0-VTK9.0.1/cmake/Modules/FindOpenNI2.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL1.13.0-VTK9.0.1\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL1.13.0-VTK9.0.1/cmake/Modules/FindQhull.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL1.13.0-VTK9.0.1\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/BoostDetectToolset-1.80.0.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/Boost-1.80.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\Boost-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/Boost-1.80.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\Boost-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_headers-1.80.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_headers-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_headers-1.80.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_headers-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_system-1.80.0/boost_system-config-version.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_system-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_system-1.80.0/boost_system-config.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_system-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_system-1.80.0/libboost_system-variant-vc143-mt-gd-x64-1_80-static.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_system-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_system-1.80.0/libboost_system-variant-vc143-mt-x64-1_80-static.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_system-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_filesystem-1.80.0/boost_filesystem-config-version.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_filesystem-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_filesystem-1.80.0/boost_filesystem-config.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_filesystem-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_filesystem-1.80.0/libboost_filesystem-variant-vc143-mt-gd-x64-1_80-static.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_filesystem-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_filesystem-1.80.0/libboost_filesystem-variant-vc143-mt-x64-1_80-static.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_filesystem-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_atomic-1.80.0/boost_atomic-config-version.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_atomic-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_atomic-1.80.0/boost_atomic-config.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_atomic-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_atomic-1.80.0/libboost_atomic-variant-vc143-mt-gd-x64-1_80-static.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_atomic-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_atomic-1.80.0/libboost_atomic-variant-vc143-mt-x64-1_80-static.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_atomic-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_date_time-1.80.0/boost_date_time-config-version.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_date_time-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_date_time-1.80.0/boost_date_time-config.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_date_time-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_date_time-1.80.0/libboost_date_time-variant-vc143-mt-gd-x64-1_80-static.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_date_time-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_date_time-1.80.0/libboost_date_time-variant-vc143-mt-x64-1_80-static.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_date_time-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_iostreams-1.80.0/boost_iostreams-config-version.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_iostreams-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_iostreams-1.80.0/boost_iostreams-config.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_iostreams-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_iostreams-1.80.0/libboost_iostreams-variant-vc143-mt-gd-x64-1_80-static.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_iostreams-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_iostreams-1.80.0/libboost_iostreams-variant-vc143-mt-x64-1_80-static.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_iostreams-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_bzip2-1.80.0/boost_bzip2-config-version.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_bzip2-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_bzip2-1.80.0/boost_bzip2-config.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_bzip2-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_bzip2-1.80.0/libboost_bzip2-variant-vc143-mt-gd-x64-1_80-static.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_bzip2-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_bzip2-1.80.0/libboost_bzip2-variant-vc143-mt-x64-1_80-static.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_bzip2-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_zlib-1.80.0/boost_zlib-config-version.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_zlib-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_zlib-1.80.0/boost_zlib-config.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_zlib-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_zlib-1.80.0/libboost_zlib-variant-vc143-mt-gd-x64-1_80-static.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_zlib-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_zlib-1.80.0/libboost_zlib-variant-vc143-mt-x64-1_80-static.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_zlib-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_serialization-1.80.0/boost_serialization-config-version.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_serialization-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_serialization-1.80.0/boost_serialization-config.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_serialization-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_serialization-1.80.0/libboost_serialization-variant-vc143-mt-gd-x64-1_80-static.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_serialization-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/PCL 1.13.0/3rdParty/Boost/lib/cmake/boost_serialization-1.80.0/libboost_serialization-variant-vc143-mt-x64-1_80-static.cmake">
+			<Option virtualFolder="CMake Files\Program Files\PCL 1.13.0\3rdParty\Boost\lib\cmake\boost_serialization-1.80.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/VTK 9.0.1/lib/cmake/vtk-9.0/VTK-targets-release.cmake">
+			<Option virtualFolder="CMake Files\Program Files\VTK 9.0.1\lib\cmake\vtk-9.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/VTK 9.0.1/lib/cmake/vtk-9.0/VTK-targets.cmake">
+			<Option virtualFolder="CMake Files\Program Files\VTK 9.0.1\lib\cmake\vtk-9.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/VTK 9.0.1/lib/cmake/vtk-9.0/VTK-vtk-module-find-packages.cmake">
+			<Option virtualFolder="CMake Files\Program Files\VTK 9.0.1\lib\cmake\vtk-9.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/VTK 9.0.1/lib/cmake/vtk-9.0/VTK-vtk-module-properties.cmake">
+			<Option virtualFolder="CMake Files\Program Files\VTK 9.0.1\lib\cmake\vtk-9.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/VTK 9.0.1/lib/cmake/vtk-9.0/vtk-config-version.cmake">
+			<Option virtualFolder="CMake Files\Program Files\VTK 9.0.1\lib\cmake\vtk-9.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/VTK 9.0.1/lib/cmake/vtk-9.0/vtk-config.cmake">
+			<Option virtualFolder="CMake Files\Program Files\VTK 9.0.1\lib\cmake\vtk-9.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/VTK 9.0.1/lib/cmake/vtk-9.0/vtk-prefix.cmake">
+			<Option virtualFolder="CMake Files\Program Files\VTK 9.0.1\lib\cmake\vtk-9.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/VTK 9.0.1/lib/cmake/vtk-9.0/vtkCMakeBackports.cmake">
+			<Option virtualFolder="CMake Files\Program Files\VTK 9.0.1\lib\cmake\vtk-9.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/VTK 9.0.1/lib/cmake/vtk-9.0/vtkEncodeString.cmake">
+			<Option virtualFolder="CMake Files\Program Files\VTK 9.0.1\lib\cmake\vtk-9.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/VTK 9.0.1/lib/cmake/vtk-9.0/vtkHashSource.cmake">
+			<Option virtualFolder="CMake Files\Program Files\VTK 9.0.1\lib\cmake\vtk-9.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/VTK 9.0.1/lib/cmake/vtk-9.0/vtkModule.cmake">
+			<Option virtualFolder="CMake Files\Program Files\VTK 9.0.1\lib\cmake\vtk-9.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/VTK 9.0.1/lib/cmake/vtk-9.0/vtkModuleJson.cmake">
+			<Option virtualFolder="CMake Files\Program Files\VTK 9.0.1\lib\cmake\vtk-9.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/VTK 9.0.1/lib/cmake/vtk-9.0/vtkModuleTesting.cmake">
+			<Option virtualFolder="CMake Files\Program Files\VTK 9.0.1\lib\cmake\vtk-9.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/VTK 9.0.1/lib/cmake/vtk-9.0/vtkObjectFactory.cmake">
+			<Option virtualFolder="CMake Files\Program Files\VTK 9.0.1\lib\cmake\vtk-9.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/VTK 9.0.1/lib/cmake/vtk-9.0/vtkTopologicalSort.cmake">
+			<Option virtualFolder="CMake Files\Program Files\VTK 9.0.1\lib\cmake\vtk-9.0\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/Program Files/VTK 9.0.1/lib/cmake/vtk-9.0/patches/99/FindOpenGL.cmake">
+			<Option virtualFolder="CMake Files\Program Files\VTK 9.0.1\lib\cmake\vtk-9.0\patches\99\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\main\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/qrc/tool-icon.qrc">
+			<Option virtualFolder="CMake Files\qrc\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/cloud_dataprocess/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cloud_dataprocess\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/qt_mainwindow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\qt_mainwindow\"/>
+		</Unit>
+		<Unit filename="E:/_Graduate_Design/project/Registration/src/global/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\global\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

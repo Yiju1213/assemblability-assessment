@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/bin/**",
+                "${workspaceFolder}/src/**",
+                "C:/Program Files/PCL1.13.0-VTK9.0.1/include/pcl-1.13/**",
+                "C:/Program Files/PCL 1.13.0/3rdParty/Boost/include/boost-1_80/**",
+                "C:/Program Files/PCL 1.13.0/3rdParty/Eigen/eigen3/**",
+                "C:/Program Files/PCL 1.13.0/3rdParty/FLANN/include/**",
+                "C:/Program Files/VTK 9.0.1/include/vtk-9.0/**",
+                "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/**",
+                "E:/_Graduate_Design/project/PCL/PCLWrapper/include",
+                "C:/Program Files/OctoMap/install/include",
+                "C:/Program Files/libccd/install/include",
+                "C:/Program Files/FCL/install/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.20348.0",
+            "compilerPath": "cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}

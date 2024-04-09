@@ -1,0 +1,147 @@
+{
+	"BUILD_DIR" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/PropertyDataBase_autogen",
+	"CMAKE_BINARY_DIR" : "E:/_Graduate_Design/project/GraduationProject/bin",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/_Graduate_Design/project/GraduationProject/src/PropertyDataBase",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"E:/_Graduate_Design/project/GraduationProject/src/PropertyDataBase/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "E:/_Graduate_Design/project/GraduationProject/src",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"E:/_Graduate_Design/project/GraduationProject/src/PropertyDataBase/property_database.h",
+			"MU",
+			"EWIEGA46WW/moc_property_database.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/PropertyDataBase_autogen/include",
+	"INCLUDE_DIR_Debug" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/PropertyDataBase_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/PropertyDataBase_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/PropertyDataBase_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/PropertyDataBase_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/PropertyDataBase_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/PropertyDataBase_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/PropertyDataBase_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/PropertyDataBase_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/PropertyDataBase_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"BOOST_ALL_NO_LIB",
+		"BOOST_ATOMIC_NO_LIB",
+		"BOOST_BZIP2_NO_LIB",
+		"BOOST_DATE_TIME_NO_LIB",
+		"BOOST_FILESYSTEM_NO_LIB",
+		"BOOST_IOSTREAMS_NO_LIB",
+		"BOOST_SERIALIZATION_NO_LIB",
+		"BOOST_SYSTEM_NO_LIB",
+		"BOOST_ZLIB_NO_LIB",
+		"DISABLE_PCAP",
+		"DISABLE_PNG",
+		"DISABLE_QHULL",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB",
+		"WIN32",
+		"__SSE2__",
+		"__SSE3__",
+		"__SSE4_1__",
+		"__SSE4_2__",
+		"__SSE__",
+		"__SSSE3__"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"BOOST_ALL_NO_LIB",
+		"BOOST_ATOMIC_NO_LIB",
+		"BOOST_BZIP2_NO_LIB",
+		"BOOST_DATE_TIME_NO_LIB",
+		"BOOST_FILESYSTEM_NO_LIB",
+		"BOOST_IOSTREAMS_NO_LIB",
+		"BOOST_SERIALIZATION_NO_LIB",
+		"BOOST_SYSTEM_NO_LIB",
+		"BOOST_ZLIB_NO_LIB",
+		"DISABLE_PCAP",
+		"DISABLE_PNG",
+		"DISABLE_QHULL",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_WIDGETS_LIB",
+		"WIN32",
+		"__SSE2__",
+		"__SSE3__",
+		"__SSE4_1__",
+		"__SSE4_2__",
+		"__SSE__",
+		"__SSSE3__"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase",
+		"E:/_Graduate_Design/project/GraduationProject/src/PropertyDataBase",
+		"E:/_Graduate_Design/project/GraduationProject/src",
+		"E:/_Graduate_Design/project/PCL/PCLWrapper/include",
+		"C:/Program Files/PCL1.13.0-VTK9.0.1/include/pcl-1.13",
+		"C:/Program Files/PCL 1.13.0/3rdParty/Eigen/eigen3",
+		"C:/Program Files/PCL 1.13.0/3rdParty/Boost/include/boost-1_80",
+		"C:/Program Files/OpenNI2/Include",
+		"E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include",
+		"E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets",
+		"E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui",
+		"E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE",
+		"E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore",
+		"E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/mkspecs/win32-msvc",
+		"C:/Program Files/VTK 9.0.1/include/vtk-9.0",
+		"C:/Program Files/PCL 1.13.0/3rdParty/FLANN/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/CMakeFiles/PropertyDataBase_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/CMakeFiles/PropertyDataBase_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/CMakeFiles/PropertyDataBase_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/CMakeFiles/PropertyDataBase_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/CMakeFiles/PropertyDataBase_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "E:/Qt/Qt5.14.2/5.14.2/msvc2017_64/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 14,
+	"SETTINGS_FILE" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/CMakeFiles/PropertyDataBase_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/CMakeFiles/PropertyDataBase_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/CMakeFiles/PropertyDataBase_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/CMakeFiles/PropertyDataBase_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/CMakeFiles/PropertyDataBase_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"E:/_Graduate_Design/project/GraduationProject/src/PropertyDataBase/property_database.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

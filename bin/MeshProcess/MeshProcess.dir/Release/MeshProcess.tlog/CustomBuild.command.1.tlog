@@ -1,0 +1,10 @@
+^E:\_GRADUATE_DESIGN\PROJECT\GRADUATIONPROJECT\SRC\MESHPROCESS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/_Graduate_Design/project/GraduationProject/src -BE:/_Graduate_Design/project/GraduationProject/bin --check-stamp-file E:/_Graduate_Design/project/GraduationProject/bin/MeshProcess/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

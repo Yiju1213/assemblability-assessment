@@ -1,0 +1,11 @@
+E:/_Graduate_Design/project/GraduationProject/bin/CMakeFiles/ALL_BUILD.dir
+E:/_Graduate_Design/project/GraduationProject/bin/CMakeFiles/ZERO_CHECK.dir
+E:/_Graduate_Design/project/GraduationProject/bin/main/CMakeFiles/YIJU_GraduationProject.dir
+E:/_Graduate_Design/project/GraduationProject/bin/GlobalConfig/CMakeFiles/GlobalConfig.dir
+E:/_Graduate_Design/project/GraduationProject/bin/PropertyDataBase/CMakeFiles/PropertyDataBase.dir
+E:/_Graduate_Design/project/GraduationProject/bin/MeshProcess/CMakeFiles/MeshProcess.dir
+E:/_Graduate_Design/project/GraduationProject/bin/PointCloudProcess/CMakeFiles/PointCloudProcess.dir
+E:/_Graduate_Design/project/GraduationProject/bin/CollideDetect/CMakeFiles/CollideDetect.dir
+E:/_Graduate_Design/project/GraduationProject/bin/SubDialog/CMakeFiles/SubDialog.dir
+E:/_Graduate_Design/project/GraduationProject/bin/SubWidget/CMakeFiles/SubWidget.dir
+E:/_Graduate_Design/project/GraduationProject/bin/MainWindow/CMakeFiles/MainWindow.dir

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\_Graduate_Design\project\GraduationProject\bin\SubWidget\SubWidget_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\_Graduate_Design\project\GraduationProject\src\SubWidget\cloud_item_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\_Graduate_Design\project\GraduationProject\src\SubWidget\vtk_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\_Graduate_Design\project\GraduationProject\bin\SubWidget\SubWidget_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\_Graduate_Design\project\GraduationProject\bin\SubWidget\SubWidget_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\_Graduate_Design\project\GraduationProject\bin\SubWidget\SubWidget_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\_Graduate_Design\project\GraduationProject\src\SubWidget\cloud_item_widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\_Graduate_Design\project\GraduationProject\src\SubWidget\vtk_widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\_Graduate_Design\project\GraduationProject\bin\SubWidget\ui_cloud_item_widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\_Graduate_Design\project\GraduationProject\bin\SubWidget\ui_vtk_widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\_Graduate_Design\project\GraduationProject\src\SubWidget\cloud_item_widget.ui" />
+    <CustomBuild Include="E:\_Graduate_Design\project\GraduationProject\src\SubWidget\vtk_widget.ui" />
+    <CustomBuild Include="E:\_Graduate_Design\project\GraduationProject\src\SubWidget\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{961CF04A-D634-3966-8B04-D3895E24C3C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{767C2463-89EB-3A41-A2E9-0AF2CE9EC98B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
